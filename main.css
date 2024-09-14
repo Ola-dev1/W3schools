@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.nav-list-item {
+  top: 0;
+  left: 10px;
+  padding: 0.5rem 0.5rem 0.5rem;
+  font-size: 1rem;
+}
+
+.nav-list-item:hover {
+  background-color: green;
+  opacity: 1rem;
+  color: white;
+  border: none;
+}
+
+.nav-gap-li {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 0.5rem 1.5rem;
+  margin-left: 2rem;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.W3Schools-header-img {
+  width: 50px;
+  height: 50px;
+}
+
+.form-serach {
+  border-radius: 10px;
+}
+
+.nav-gap-li-btn,
+.nav-gap-li {
+  font-size: 1rem;
+}
+
+.login-signup {
+  margin-left: 5rem;
+}
